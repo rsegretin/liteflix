@@ -5,4 +5,4 @@
 - La base de datos no es local (Mongo Atlas)
 - El proyecto está publicado en Vercel:
     - web: https://liteflix-web-flame.vercel.app/
-    - apis: https://liteflix-hilhhkyvc-richards-projects-640bae7a.vercel.app/
+    - apis: https://liteflix-pied.vercel.app//
