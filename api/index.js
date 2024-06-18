@@ -9,7 +9,14 @@ await dbConnect();
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+    origin: "*",
+    credential: true,
+    optionSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json({ limit: '3mb' }));
 app.use(express.urlencoded({ extended: false }));
 
