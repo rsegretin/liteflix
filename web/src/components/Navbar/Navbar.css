@@ -1,0 +1,34 @@
+.navbar, .navbar-left-group, .navbar-menu-group {
+    background: transparent;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-group {
+    display: flex;
+    margin: 30px 7%;
+}
+
+.navbar-left-group {
+    gap: 50px;
+}
+
+.navbar-menu-group {
+    gap: 20px;
+}
+
+.logo {
+    font-size: 34px;
+    color: #64EEBC;
+    font-weight: 700;
+}
+
+.logo span {
+    font-weight: 400;
+}

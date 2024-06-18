@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+  background: #242424;
+  color: white;
+  letter-spacing: 0.3em;
+}
+
+button, input, select, option {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.movie-list-column {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}

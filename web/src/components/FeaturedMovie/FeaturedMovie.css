@@ -1,0 +1,65 @@
+.feat {
+    position: relative;
+    overflow: hidden;
+}
+
+.feat-cover-img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    mask-image: radial-gradient(black 0%, transparent 90%);
+}
+
+.feat-title {
+    position: absolute;
+    padding-left: 10%;
+    bottom: 20%;
+    background: transparent;
+}
+
+.feat-pretitle {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.feat-pretitle-bold {
+    font-weight: 700;
+    font-size: 20px;
+    background: transparent;
+}
+
+.feat-title-name {
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 120px;
+    color: #64EEBC;
+    width: 65%;
+    background: transparent;
+}
+
+.feat-buttons {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    bottom: 12%;
+    margin-left: 10%;
+}
+
+.feat-btn {
+    padding: 20px 70px;
+}
+
+.feat-primary-btn {
+    background-color: #242424;
+}
+
+.feat-play-icon {
+    margin-right: 10px;
+}
+
+.feat-secondary-btn {
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.05);
+    padding: 20px 70px;
+}
