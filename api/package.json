@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch index.js"
   },
-  "proxy": "https://liteflix-pied.vercel.app/",
   "author": "",
   "type": "module",
   "license": "ISC",
